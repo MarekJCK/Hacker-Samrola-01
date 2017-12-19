@@ -1,0 +1,13 @@
+.page-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: $red;
+	color: $grey;
+	padding: 5px 0;
+	font-family: $nunitoBold;
+
+	img {
+		vertical-align: middle;
+	}
+}

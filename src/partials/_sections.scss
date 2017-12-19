@@ -1,0 +1,72 @@
+.section-stripe {
+	height: 25px;
+    background: $red;
+}
+
+.section-education {
+	background: $white;
+	color: $grey;
+	
+	h2 {
+		font-family: $nunitoBold;
+	  font-size: 5rem;
+    letter-spacing: -2px;
+	  margin-bottom: 0;
+	}
+
+	small,
+	.soft-text {
+		border-bottom: 2px solid $grey;
+	}
+
+	.left-text,
+	.soft-text {
+		font-family: $nunitoBold;
+	}
+
+	.soft-text {
+		display: inline-block;
+	}
+
+	.soft-list {
+		display: flex;
+		flex-direction: column;
+
+		img {
+			max-width: 25px;
+			padding-right: 10px;
+		}
+
+		a {
+			display: flex;
+    	align-items: center;
+    	color: $grey;
+    	text-decoration: none;
+    	padding: 10px 0;
+		}
+
+	}
+
+	.educ-block {
+
+		padding: 20px 0;
+
+		.letter-title {
+			font-size: 4rem;
+			font-family: $nunitoBold;
+			display: block;
+			border-bottom: 2px solid $grey;
+		}
+
+		a {
+				display: inline-block;
+				color: $lime;
+				font-size: 2.5rem;
+				text-decoration: none;
+			}
+
+		a:hover {
+			text-decoration: underline;
+		}	
+	}
+}
